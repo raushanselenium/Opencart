@@ -55,4 +55,9 @@ public class LoginPage {
 			return (false);
 		}
 	}
+	
+	public void clickForgottenpassword()
+	{
+		lnkForgottenPassword.click();
+	}
 }
