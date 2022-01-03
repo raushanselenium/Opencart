@@ -33,7 +33,7 @@ public class TC_004_ForgotPassword extends BaseClass {
 			
 			ForgotPasswordPage fpp=new ForgotPasswordPage(driver);
 			fpp.setEmail(rb.getString("email"));
-			logger.info("Entered email");
+			logger.info("Entered email in Email field to send forget password link");
 			fpp.clickContinue();
 			logger.info("Clicked on continue button");
 			String confMsg=fpp.getConfirmation();
